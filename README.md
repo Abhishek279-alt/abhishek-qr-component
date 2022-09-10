@@ -24,7 +24,7 @@ This is the solution to the challenge on Frontend Mentor which involves building
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://abhi-shek-qr-component.netlify.app/)
+- Live Site URL: [My Wesite](https://abhi-shek-qr-component.netlify.app/)
 
 ## My process
 
@@ -39,9 +39,9 @@ Created a card using multiple <div> and added simple CSS using classes and id se
 
 ### Useful resources
 
-- [Example resource 1](https://www.w3schools.com/) - This sit helped me with the usage of CSS media queries.
+- (https://www.w3schools.com/) - This sit helped me with the usage of CSS media queries.
 
 ## Author
 
-- Website - [Add your name here](https://abhi-shek-qr-component.netlify.app/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Abhishek279-alt)
+- Abhishek Singh Rajput
+- Frontend Mentor - [@Abhishek279-alt](https://www.frontendmentor.io/profile/Abhishek279-alt)
