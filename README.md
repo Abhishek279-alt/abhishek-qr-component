@@ -28,7 +28,7 @@ This is the solution to the challenge on Frontend Mentor which involves building
 
 ## My process
 
-Created a card using multiple <div> and added simple CSS using classes and id selectors.
+Created a card using multiple <div> , used simple CSS and added the style sheet internally.
 
 ### Built with
 
@@ -39,7 +39,7 @@ Created a card using multiple <div> and added simple CSS using classes and id se
 
 ### Useful resources
 
-- (https://www.w3schools.com/) - This sit helped me with the usage of CSS media queries.
+- [w3schools](https://www.w3schools.com/) - This sit helped me with the usage of CSS media queries.
 
 ## Author
 
