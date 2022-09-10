@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>QR code component</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+    @media screen and (min-width: 701px) and (max-width: 1600px) {
+
+      body {
+        background-color: hsl(212, 45%, 89%);
+        font-family: 'Outfit', sans-serif;
+        display: flex;
+        margin: 14vh;
+
+      }
+
+      .card {
+        width: 23vw;
+        background-color: hsl(0, 0%, 100%);
+        margin: 0 auto;
+        border-radius: 17px;
+        box-shadow: 4px 8px 50px hsl(218deg 44% 80%);
+      }
+
+      .card-image {
+        margin: 1.2em 1.2em;
+      }
+
+      #qr {
+        width: 20.5vw;
+        border-radius: 15px;
+      }
+
+      .card-title {
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 700;
+        padding: 5px 60px;
+      }
+
+      .card-desc {
+        color: hsl(220, 15%, 55%);
+        padding: 10px 50px;
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 30px;
+      }
+
+    }
+
+    @media screen and (min-width: 501px) and (max-width: 700px) {
+
+      body {
+        background-color: hsl(212, 45%, 89%);
+        font-family: 'Outfit', sans-serif;
+        display: flex;
+        margin: 20vh;
+
+      }
+
+      .card {
+        width: 36vw;
+        background-color: hsl(0, 0%, 100%);
+        margin: 0 auto;
+        border-radius: 17px;
+        box-shadow: 4px 8px 50px hsl(218deg 44% 80%);
+      }
+
+      .card-image {
+        margin: 0.77em 0.77em;
+      }
+
+      #qr {
+        width: 32.5vw;
+        border-radius: 15px;
+      }
+
+      .card-title {
+        text-align: center;
+        font-size: 1.1rem;
+        font-weight: 700;
+        padding: 5px 20px;
+      }
+
+      .card-desc {
+        color: hsl(220, 15%, 55%);
+        padding: 10px 25px;
+        text-align: center;
+        font-size: 13px;
+        margin-bottom: 25px;
+      }
+    }
+
+    @media screen and (min-width: 375px) and (max-width: 500px) {
+
+      body {
+        background-color: hsl(212, 45%, 89%);
+        font-family: 'Outfit', sans-serif;
+        display: flex;
+
+      }
+
+      .card {
+        width: 73vw;
+        background-color: hsl(0, 0%, 100%);
+        margin: 28% 12%;
+        border-radius: 17px;
+        box-shadow: 4px 8px 50px hsl(218deg 44% 80%);
+      }
+
+      .card-image {
+        margin: 0.77em 0.77em;
+      }
+
+      #qr {
+        width: 66.5vw;
+        border-radius: 15px;
+      }
+
+      .card-title {
+        text-align: center;
+        font-size: 1.1rem;
+        font-weight: 700;
+        padding: 5px 21px;
+      }
+
+      .card-desc {
+        color: hsl(220, 15%, 55%);
+        padding: 10px 25px;
+        text-align: center;
+        font-size: 13px;
+        margin-bottom: 25px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <div class="card-image"><img src="./images/image-qr-code.png" alt="qr-image" id="qr"></div>
+    <div class="card-title">Improve your front-end skills by building projects</div>
+    <div class="card-desc">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</div>
+  </div>
+</body>
+
+</html>
